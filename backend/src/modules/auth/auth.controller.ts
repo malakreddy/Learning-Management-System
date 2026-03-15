@@ -40,7 +40,7 @@ export const register = async (req: Request, res: Response): Promise<void> => {
     res.cookie('refresh_token', refreshToken, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
-      domain: process.env.COOKIE_DOMAIN,
+      ...(process.env.COOKIE_DOMAIN ? { domain: process.env.COOKIE_DOMAIN } : {}),
       path: '/api/auth/refresh',
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });
@@ -89,7 +89,7 @@ export const login = async (req: Request, res: Response): Promise<void> => {
     res.cookie('refresh_token', refreshToken, {
       httpOnly: true,
       secure: process.env.NODE_ENV === 'production',
-      domain: process.env.COOKIE_DOMAIN,
+      ...(process.env.COOKIE_DOMAIN ? { domain: process.env.COOKIE_DOMAIN } : {}),
       path: '/api/auth/refresh',
       maxAge: 7 * 24 * 60 * 60 * 1000,
     });

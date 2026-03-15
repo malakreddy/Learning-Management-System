@@ -1,0 +1,24 @@
+﻿branch 'main' set up to track 'origin/main'.
+git : To https://github
+.com/malakreddy/Learnin
+g-Management-System.git
+At line:1 char:219
++ ... mit: clean LMS 
+project"; git push -u 
+origin main --force 
+2>&1 | Out-F ...
++                      
+        ~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (To https://gi   
+ th...ment-System.g    
+it:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+ * [new branch]      
+main -> main
