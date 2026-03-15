@@ -1,0 +1,10 @@
+src/app/course/[slug]/page.tsx(132,46): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(138,14): error TS2339: Property 'onYouTubeIframeAPIReady' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(139,52): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(157,38): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(177,33): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(180,40): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+src/app/course/[slug]/page.tsx(182,40): error TS2339: Property 'YT' does not exist on type 'Window & typeof globalThis'.
+tailwind.config.ts(4,3): error TS2322: Type '["class"]' is not assignable to type 'DarkModeStrategy | undefined'.
+  Type '["class"]' is not assignable to type '["class", string]'.
+    Source has 1 element(s) but target requires 2.
